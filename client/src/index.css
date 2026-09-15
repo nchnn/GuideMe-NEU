@@ -1,0 +1,29 @@
+:root {
+  --bg: #1a1a2e;
+  --panel: #16213e;
+  --accent: #0f3460;
+  --highlight: #e94560;
+  --text: #eee;
+  --text-dim: #9ca3af;
+  --room-fill: #dbeafe;
+  --room-stroke: #1e3a8a;
+  --hall-fill: #e5e7eb;
+  --path-color: #e94560;
+  --select-bg: #0f3460;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
